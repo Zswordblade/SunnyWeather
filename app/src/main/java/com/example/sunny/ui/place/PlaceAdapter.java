@@ -61,7 +61,6 @@ public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.ViewHolder> 
                     ((WeatherActivity) activity).getViewModel().locationLat = place.getLocation().getLat();
                     ((WeatherActivity) activity).getViewModel().placeName = place.getName();
                     ((WeatherActivity) activity).refreshWeather();
-
                 }
                 else{
                     //将数据上传

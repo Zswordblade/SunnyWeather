@@ -7,7 +7,7 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 public interface PlaceService {
-    @GET("v2/place?token=${SunnyWeatherApplication.TOKEN}&lang=zh_CN")
+    @GET("v2/place?token=Ts1Mh8Fse0cGmcon&lang=zh_CN")
     Call<PlaceResponse> searchPlace(@Query("query") String query);
 
 }

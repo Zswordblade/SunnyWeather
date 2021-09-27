@@ -5,8 +5,6 @@ import android.content.Context;
 
 public class SunnyWeatherApplication extends Application {
 
-    public static final String TOKEN = "Ts1Mh8Fse0cGmcon";
-
     private static Context context;
 
     @Override
